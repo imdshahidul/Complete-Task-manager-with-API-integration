@@ -1,0 +1,2 @@
+C:/Ostad/Flutter/taskui/android/app/.cxx/Debug/5x6f4k4r/x86/CMakeFiles/edit_cache.dir
+C:/Ostad/Flutter/taskui/android/app/.cxx/Debug/5x6f4k4r/x86/CMakeFiles/rebuild_cache.dir
