@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:taskui/ui/screens/splash_screen.dart';
+import 'package:get/get.dart';
+import 'controller_binder.dart';
 
 class TaskManagerApp extends StatelessWidget {
   const TaskManagerApp({super.key});
@@ -8,7 +10,7 @@ class TaskManagerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       navigatorKey: TaskManagerApp.navigatorKey,
       theme: ThemeData(
           colorSchemeSeed: Colors.green,
@@ -45,6 +47,7 @@ class TaskManagerApp extends StatelessWidget {
           )
       ),
       home: splash_screen(),
+      initialBinding: ControllerBinder(),
     );
   }
 
